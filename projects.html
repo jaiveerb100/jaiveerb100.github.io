@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Jaiveer Bagga</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">Jaiveer <span>Bagga</span></a>
+      <ul>
+        <li><a class="link" href="index.html">Home</a></li>
+        <li><a class="link" href="about.html">About</a></li>
+        <li><a class="link active" href="projects.html">Projects</a></li>
+        <li><a class="link" href="goals.html">Goals</a></li>
+        <li><a class="link" href="resume.html">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-head">
+    <div class="wrap">
+      <h1>Projects</h1>
+      <p class="lede">Hardware, machine learning, and full-stack software. This page grows every semester, so check back.</p>
+    </div>
+  </header>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <!-- To add a project: copy one <article class="card"> block below and edit it. -->
+      <div class="grid" style="margin-top:0">
+
+        <article class="card" id="steadymatch">
+          <div class="art"><img src="assets/fall-detection.svg" alt="Pose estimation detecting a fall with a torso-angle measurement"></div>
+          <div class="body">
+            <span class="meta">Aug 2024 – Apr 2026 · Developer</span>
+            <h3>Steadymatch: Fall Recognition</h3>
+            <p>A real-time fall-detection system on a Raspberry Pi built around an 11.2M-parameter YOLOv8 pose model. I engineered pose-based heuristics (torso angle, bounding-box geometry, normalized body position) to separate genuine falls from everyday movement, and the system sends an instant alert to caregivers when it detects one.</p>
+            <div class="tags"><span class="tag">YOLOv8</span><span class="tag">Computer Vision</span><span class="tag">Raspberry Pi</span><span class="tag">Python</span></div>
+          </div>
+        </article>
+
+        <article class="card" id="eye">
+          <div class="art"><img src="assets/eye-detection.svg" alt="Retinal scan with classification output for three eye diseases"></div>
+          <div class="body">
+            <span class="meta">Oct 2024 – Dec 2025 · Developer</span>
+            <h3>Eye Disease Detection App</h3>
+            <p>A machine-learning app that predicts cataracts, glaucoma, and diabetic retinopathy from eye images with 96% accuracy. I tested it with 15 patients alongside an ophthalmologist. It won <strong>3rd place in the Congressional App Challenge</strong>.</p>
+            <div class="tags"><span class="tag">Machine Learning</span><span class="tag">Python</span><span class="tag">App Development</span></div>
+          </div>
+        </article>
+
+        <article class="card" id="sensair">
+          <div class="art"><img src="assets/air-quality.svg" alt="Portable air purifier with a live PM2.5 sensor display"></div>
+          <div class="body">
+            <span class="meta">Jul 2025 · UPenn M&amp;TSI · Engineering Lead</span>
+            <h3>Portable Air-Quality Filter &amp; Monitor</h3>
+            <p>I led engineering on a five-person interdisciplinary team building a portable filtration device with 22.7 ft³/min of airflow, a 3D-printed housing, and Arduino-based sensors. I built the TypeScript/Xcode companion app that streams live readings, and our go-to-market plan projected 500 customers, $132K in Year-1 revenue, and a 7:1 CLV:CAC ratio.</p>
+            <div class="tags"><span class="tag">Arduino</span><span class="tag">3D Printing</span><span class="tag">TypeScript</span><span class="tag">Xcode</span></div>
+          </div>
+        </article>
+
+        <article class="card" id="vo2">
+          <div class="art"><img src="assets/vo2-lstm.svg" alt="Chart of predicted versus measured VO2 from an LSTM model"></div>
+          <div class="body">
+            <span class="meta">Oct 2025 · Research · Sole Author</span>
+            <h3>Predicting VO₂max with LSTMs</h3>
+            <p>A two-layer LSTM in PyTorch that predicts maximal oxygen uptake from physiological time-series data. It reached an R² of 0.9693 and RMSE of 0.1961 mL/min on the test set, beating a linear-regression baseline (R² 0.8621). I engineered a 20-second rolling-average target and tuned hyperparameters with random search and 5-fold cross-validation.</p>
+            <div class="tags"><span class="tag">PyTorch</span><span class="tag">LSTM</span><span class="tag">Time Series</span><span class="tag">Research</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="wrap">
+      <div class="cols">
+        <div>
+          <span class="eyebrow" style="color:var(--gold)">Contact</span>
+          <h2 style="margin-top:16px">Let's build <em>something.</em></h2>
+          <p>I'm looking for software engineering internships and research opportunities. If you're working on something interesting, I'd like to hear about it.</p>
+        </div>
+        <ul>
+          <li><span>Email</span><a href="mailto:jaiveerb1000@gmail.com">jaiveerb1000@gmail.com</a></li>
+          <li><span>LinkedIn</span><a href="https://linkedin.com/in/jaiveerb1">linkedin.com/in/jaiveerb1</a></li>
+          <li><span>GitHub</span><a href="https://github.com/jaiveerb100">github.com/jaiveerb100</a></li>
+        </ul>
+      </div>
+      <p class="fine">© 2026 Jaiveer Bagga · Built by hand, hosted on GitHub Pages</p>
+    </div>
+  </footer>
+</body>
+</html>

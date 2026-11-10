@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume — Jaiveer Bagga</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">Jaiveer <span>Bagga</span></a>
+      <ul>
+        <li><a class="link" href="index.html">Home</a></li>
+        <li><a class="link" href="about.html">About</a></li>
+        <li><a class="link" href="projects.html">Projects</a></li>
+        <li><a class="link" href="goals.html">Goals</a></li>
+        <li><a class="link active" href="resume.html">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-head">
+    <div class="wrap">
+      <h1>Resume</h1>
+      <div class="btns" style="margin-top:8px">
+        <a class="btn solid" href="assets/Jaiveer_Bagga_Resume.pdf" download>Download PDF ↓</a>
+        <a class="btn ghost" href="assets/Jaiveer_Bagga_Resume.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>
+      </div>
+    </div>
+  </header>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <article class="resume">
+        <h2>Education</h2>
+        <div class="r-item">
+          <div class="r-row"><b>Georgia Institute of Technology</b><span class="when">Atlanta, GA</span></div>
+          <div class="r-row"><i>B.S. Computer Engineering · 4.0 GPA</i><span class="when">Expected May 2028</span></div>
+          <ul><li>Relevant coursework: Data Structures &amp; Algorithms, Linear Algebra, Discrete Math, Differential Equations, Multivariable Calculus, Digital System Design, Mechanics, Electricity &amp; Magnetism</li></ul>
+        </div>
+
+        <h2>Technical Skills</h2>
+        <ul style="list-style:none;padding:0">
+          <li><b>Languages:</b> Java, Python, TypeScript, C/C++, SQL</li>
+          <li><b>Developer tools:</b> Git/GitHub, Docker, PostgreSQL, AWS, Arduino IDE, Raspberry Pi</li>
+          <li><b>Frameworks:</b> React, FastAPI</li>
+        </ul>
+
+        <h2>Work Experience</h2>
+        <div class="r-item">
+          <div class="r-row"><b>X Cap Market</b><span class="when">Jun 2025 – Aug 2025</span></div>
+          <div class="r-row"><i>Software Engineering Intern</i></div>
+          <ul>
+            <li>Built a web-scraping pipeline in Python using the OpenAI API, profiling 2,000+ private equity and investment firms for lead generation into DynamoDB, with retry logic and rate-limit handling</li>
+            <li>Implemented the frontend of a full-stack client management platform using React and TypeScript</li>
+            <li>Designed a single interface consolidating customer records and outreach emails for XCap's clients</li>
+            <li>Developed backend APIs in Python, deployed via AWS Lambda and containerized with Docker</li>
+          </ul>
+        </div>
+
+        <h2>Projects</h2>
+        <div class="r-item">
+          <div class="r-row"><b>Portable Air-Quality Filter/Monitor</b><span class="when">Jul 2025</span></div>
+          <div class="r-row"><i>University of Pennsylvania M&amp;TSI · Arduino, 3D Printing, TypeScript, Xcode</i></div>
+          <ul>
+            <li>Led engineering within a five-person interdisciplinary team for a portable air-quality detection/filtration device with 22.7 ft³/min airflow, integrating a 3D-printed housing and Arduino-based sensors</li>
+            <li>Built an app using TypeScript and Xcode displaying live sensor readings from the device</li>
+            <li>Formulated a go-to-market plan projecting 500 customers, $132K Year-1 revenue, and 7:1 CLV:CAC</li>
+          </ul>
+        </div>
+        <div class="r-item">
+          <div class="r-row"><b>Eye Disease Detection App</b><span class="when">Oct 2024 – Dec 2025</span></div>
+          <div class="r-row"><i>Developer · Machine Learning, Python, App Development</i></div>
+          <ul>
+            <li>Built an ML app to predict cataracts, glaucoma, and diabetic retinopathy, achieving 96% accuracy</li>
+            <li>Tested with 15 patients alongside an ophthalmologist; won 3rd place, Congressional App Challenge</li>
+          </ul>
+        </div>
+        <div class="r-item">
+          <div class="r-row"><b>Fall Recognition App</b><span class="when">Aug 2024 – Apr 2026</span></div>
+          <div class="r-row"><i>Developer · Raspberry Pi, Machine Learning, Python, Computer Vision</i></div>
+          <ul>
+            <li>Developed Steadymatch, a real-time fall detection system using an 11.2M-parameter YOLOv8 model</li>
+            <li>Engineered pose-based heuristics using torso angle, bounding-box geometry, and normalized body position</li>
+            <li>Classified falls from normal movement and triggered instant caregiver alerts</li>
+          </ul>
+        </div>
+
+        <h2>Research</h2>
+        <div class="r-item">
+          <div class="r-row"><b>Predicting Maximal Oxygen Uptake Using LSTM Models and Physiological Signals</b><span class="when">Oct 2025</span></div>
+          <div class="r-row"><i>Sole Author</i></div>
+          <ul>
+            <li>Designed and trained a two-layer LSTM model in PyTorch to predict VO₂max from physiological time-series data</li>
+            <li>Achieved an R² of 0.9693 and RMSE of 0.1961 mL/min on the test set</li>
+            <li>Outperformed a linear regression baseline, which achieved an R² of 0.8621</li>
+            <li>Engineered a 20-second rolling-average target variable (AO20) and optimized hyperparameters via random search with 5-fold cross-validation</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="wrap">
+      <div class="cols">
+        <div>
+          <span class="eyebrow" style="color:var(--gold)">Contact</span>
+          <h2 style="margin-top:16px">Let's build <em>something.</em></h2>
+          <p>I'm looking for software engineering internships and research opportunities. If you're working on something interesting, I'd like to hear about it.</p>
+        </div>
+        <ul>
+          <li><span>Email</span><a href="mailto:jaiveerb1000@gmail.com">jaiveerb1000@gmail.com</a></li>
+          <li><span>LinkedIn</span><a href="https://linkedin.com/in/jaiveerb1">linkedin.com/in/jaiveerb1</a></li>
+          <li><span>GitHub</span><a href="https://github.com/jaiveerb100">github.com/jaiveerb100</a></li>
+        </ul>
+      </div>
+      <p class="fine">© 2026 Jaiveer Bagga · Built by hand, hosted on GitHub Pages</p>
+    </div>
+  </footer>
+</body>
+</html>

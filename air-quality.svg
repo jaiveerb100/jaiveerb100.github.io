@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="IBM Plex Mono, monospace">
+  <rect width="800" height="450" fill="#e3ece7"/>
+  <g fill="none" stroke="#1d5a47" stroke-width="2.5" stroke-linecap="round" opacity=".55">
+    <path d="M40 150 C120 120 160 180 250 150"/>
+    <path d="M40 210 C120 180 160 240 250 210"/>
+    <path d="M40 270 C120 240 160 300 250 270"/>
+  </g>
+  <g fill="none" stroke="#1d5a47" stroke-width="2.5" stroke-linecap="round">
+    <path d="M550 150 C630 150 660 130 760 140"/>
+    <path d="M550 210 C630 210 660 210 760 210"/>
+    <path d="M550 270 C630 270 660 290 760 280"/>
+  </g>
+  <g fill="#1d5a47" opacity=".5">
+    <circle cx="70" cy="128" r="4"/><circle cx="110" cy="190" r="3"/><circle cx="160" cy="250" r="5"/><circle cx="200" cy="300" r="3"/><circle cx="90" cy="320" r="4"/>
+  </g>
+  <rect x="260" y="90" width="280" height="270" rx="26" fill="#f5f3ee" stroke="#15171b" stroke-width="3"/>
+  <g stroke="#15171b" stroke-width="2.5">
+    <path d="M290 130H510M290 150H510M290 170H510M290 190H510"/>
+  </g>
+  <rect x="300" y="225" width="200" height="105" rx="8" fill="#15171b"/>
+  <text x="318" y="255" fill="#b3a369" font-size="13" letter-spacing="1">PM2.5</text>
+  <text x="318" y="305" fill="#f5f3ee" font-size="44">07</text>
+  <text x="380" y="305" fill="#8b8e96" font-size="14">µg/m³</text>
+  <circle cx="472" cy="250" r="7" fill="#4fbf8f"/>
+  <text x="40" y="420" font-size="12" fill="#4a4e57" letter-spacing="1">22.7 FT³/MIN · ARDUINO SENSORS · LIVE APP</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="IBM Plex Mono, monospace">
+  <rect width="800" height="450" fill="#15171b"/>
+  <circle cx="270" cy="220" r="150" fill="#2a1f1a"/>
+  <circle cx="270" cy="220" r="150" fill="none" stroke="#b3a369" stroke-width="2"/>
+  <circle cx="320" cy="210" r="34" fill="#e8c98a" opacity=".9"/>
+  <g fill="none" stroke="#c4614a" stroke-width="3" stroke-linecap="round" opacity=".85">
+    <path d="M320 210 C270 170 220 150 150 160"/>
+    <path d="M320 210 C260 230 210 270 160 300"/>
+    <path d="M320 210 C330 150 300 110 250 85"/>
+    <path d="M320 210 C340 270 320 320 280 360"/>
+    <path d="M320 210 C370 190 390 160 400 140"/>
+    <path d="M320 210 C370 240 395 270 405 290"/>
+  </g>
+  <rect x="190" y="150" width="190" height="130" fill="none" stroke="#4fbf8f" stroke-width="2" stroke-dasharray="8 6"/>
+  <g font-size="13" fill="#f5f3ee" letter-spacing="1">
+    <text x="480" y="140">CATARACT</text>
+    <text x="480" y="210">GLAUCOMA</text>
+    <text x="480" y="280">DIABETIC RET.</text>
+  </g>
+  <g>
+    <rect x="480" y="152" width="260" height="10" fill="#2c2f36"/><rect x="480" y="152" width="34" height="10" fill="#8b8e96"/>
+    <rect x="480" y="222" width="260" height="10" fill="#2c2f36"/><rect x="480" y="222" width="232" height="10" fill="#4fbf8f"/>
+    <rect x="480" y="292" width="260" height="10" fill="#2c2f36"/><rect x="480" y="292" width="20" height="10" fill="#8b8e96"/>
+  </g>
+  <text x="40" y="420" font-size="12" fill="#8b8e96" letter-spacing="1">96% ACCURACY · 3RD PLACE, CONGRESSIONAL APP CHALLENGE</text>
+</svg>
